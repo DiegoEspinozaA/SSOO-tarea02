@@ -24,11 +24,12 @@ Antes de proceder a ejecutar el comando que resuelve el problema se hace un chec
 
 Una vez que se cuente con los paquetes necesarios se procede a ejecutar el comando **curl -s https://api.warframe.market/v1/items | jq -S '.payload.items[] |= del(.url_name, .thumb)' > items.json**.
 
-**curl -s https://api.warframe.market/v1/items**: Captura de manera silenciosa los datos de la url.
 
-**jq -S**: Generar los campos de cada objeto con las claves de manera ordenada.
+1. **curl -s https://api.warframe.market/v1/items**: Captura de manera silenciosa los datos de la url.
 
-**.payload.items[] |= del(.url_name, .thumb)' > items.json**: Acceder en forma de lista a las claves del archivo ya parseado anteriormente con **jq** para eliminar las claves **url_name** y **thum**. Finalmente se redirecciona la salida a un archivo con el nombre **items.json**. 
+2. **jq -S**: Generar los campos de cada objeto con las claves de manera ordenada.
+
+3. **.payload.items[] |= del(.url_name, .thumb)' > items.json**: Acceder en forma de lista a las claves del archivo ya parseado anteriormente con **jq** para eliminar las claves **url_name** y **thum**. Finalmente se redirecciona la salida a un archivo con el nombre **items.json**. 
 
 
 ### Ejecución 
