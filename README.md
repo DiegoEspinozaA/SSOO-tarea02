@@ -43,10 +43,6 @@ _Menciona las herramientas que utilizaste para crear tu proyecto_
 * [ROME](https://rometools.github.io/rome/) - Usado para generar RSS
 
 
-## Contribuyendo 🖇️
-
-Por favor lee el [CONTRIBUTING.md](https://gist.github.com/villanuevand/xxxxxx) para detalles de nuestro código de conducta, y el proceso para enviarnos pull requests.
-
 
 ## Wiki 📖
 
