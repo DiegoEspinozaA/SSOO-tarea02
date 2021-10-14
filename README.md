@@ -58,4 +58,3 @@ Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](ht
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
 * **Diego Espinoza** - *Trabajo Individual* - [DiegoEspinozaA](https://github.com/DiegoEspinozaA)
-⌨️ con ❤️ por [DiegoEspinozaA](https://github.com/DiegoEspinozaA) 😊
