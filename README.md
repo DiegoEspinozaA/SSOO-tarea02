@@ -22,7 +22,14 @@ En este caso el problema consta de capturar la informacion de la api https://api
 
 Antes de proceder a ejecutar el comando que resuelve el problema se hace un checkeo de existencia en el sistema de los paquetes **jq** y **curl** utilizando el comando **dpkg-query -W --showformat='${Status}\n' $i | grep "install ok installed"**, si el paquete se encuentra en el sistema retornara el texto "install ok installed" de lo contrario retornara un texto vacio, si lo anterior ocurre se instala el paquete con el comando **sudo apt-get --yes install $i**.
 
-Una vez que se cuente con los paquetes necesarios se procede a ejecutar el comando **curl -s https://api.warframe.market/v1/items | jq -S '.payload.items[] |= del(.url_name, .thumb)' > items.json**
+Una vez que se cuente con los paquetes necesarios se procede a ejecutar el comando **curl -s https://api.warframe.market/v1/items | jq -S '.payload.items[] |= del(.url_name, .thumb)' > items.json**.
+
+**curl -s https://api.warframe.market/v1/items**: Captura de manera silenciosa los datos de la url.
+
+**jq -S**: Generar los campos de cada objeto con las claves de manera ordenada.
+
+**.payload.items[] |= del(.url_name, .thumb)' > items.json**: Acceder en forma de lista a las claves del archivo ya parseado anteriormente con **jq** para eliminar las claves **url_name** y **thum**. Finalmente se redirecciona la salida a un archivo con el nombre **items.json**. 
+
 
 ### Ejecución 
 
