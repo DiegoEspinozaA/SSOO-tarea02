@@ -25,14 +25,14 @@ __
 
 ### Ejecución 
 
-Utilizando la consola posicionarse dentro de src/ y ejecutar la instrucción: ./script.sh.
+_Utilizando la consola posicionarse dentro de *src/* y ejecutar la instrucción *./script.sh*.
 
-O simplemente dar doble click sobre el archivo .sh.
+O simplemente dar doble click sobre el archivo *script.sh*.
 
 
 
 ## Wiki
--Puedes encontrar informacion detallada de los comandos utilizados en los siguientes enlaces._
+_Puedes encontrar informacion detallada de los comandos utilizados en los siguientes enlaces._
 * [jq](https://stedolan.github.io/jq/manual/) - json parser.
 * [curl](https://www.mit.edu/afs.new/sipb/user/ssen/src/curl-7.11.1/docs/curl.html) - data transfer.
 
