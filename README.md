@@ -57,5 +57,5 @@ Puedes encontrar mucho más de cómo utilizar este proyecto en nuestra [Wiki](ht
 
 _Menciona a todos aquellos que ayudaron a levantar el proyecto desde sus inicios_
 
-* **Andrés Villanueva** - *Trabajo Inicial* - [villanuevand](https://github.com/villanuevand)
+* **Diego Espinoza** - *Trabajo Inicial* - [villanuevand](https://github.com/DiegoEspinozaA)
 ⌨️ con ❤️ por [Villanuevand](https://github.com/Villanuevand) 😊
