@@ -7,7 +7,7 @@ En este caso el problema consta de capturar la informacion de la api https://api
 
 
 
-### Pre-requisitos
+## Pre-requisitos
 
 *Sistema operativo basado en Linux, por ejemplo, Ubuntu.
 
@@ -19,7 +19,7 @@ En este caso el problema consta de capturar la informacion de la api https://api
 
 
 
-### Explicación
+## Explicación
 
 Antes de proceder a ejecutar el comando que resuelve el problema se hace un checkeo de existencia en el sistema de los paquetes **jq** y **curl** utilizando el comando **dpkg-query -W --showformat='${Status}\n' $i | grep "install ok installed"**, si el paquete se encuentra en el sistema retornara el texto "install ok installed" de lo contrario retornara un texto vacio, si lo anterior ocurre se instala el paquete con el comando **sudo apt-get --yes install $i**.
 
@@ -34,7 +34,7 @@ Una vez que se cuente con los paquetes necesarios se procede a ejecutar el coman
 
 
 
-### Ejecución 
+## Ejecución 
 
 Utilizando la consola posicionarse dentro de **src/** y ejecutar la instrucción **./script.sh**.
 O simplemente dar doble click sobre el archivo **script.sh**.
