@@ -37,4 +37,4 @@ Puedes encontrar informacion detallada de los comandos utilizados en los siguien
 
 ## Autor
 
-**Diego Espinoza Apablaza** - 20.479.538-8 - diego.espinozaa@alumnos.uv.cl
+**Diego Espinoza** - 20.479.538-8 - diego.espinozaa@alumnos.uv.cl
