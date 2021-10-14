@@ -11,9 +11,9 @@ _*Sistema operativo basado en Linux, por ejemplo, Ubuntu._
 
 _*Máquina virtual con un sistema basado en Linux._
 
-_*Paquete *jq* instalado._
+_*Paquete **jq** instalado._
 
-_*Paquete *curl* instalado_
+_*Paquete **curl** instalado_
 
 
 
@@ -25,9 +25,8 @@ __
 
 ### Ejecución 
 
-_Utilizando la consola posicionarse dentro de *src/* y ejecutar la instrucción *./script.sh*.
-
-O simplemente dar doble click sobre el archivo *script.sh*.
+_Utilizando la consola posicionarse dentro de **src/** y ejecutar la instrucción **./script.sh**.
+O simplemente dar doble click sobre el archivo **script.sh*._
 
 
 
