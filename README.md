@@ -1,7 +1,8 @@
 # TSSOO-tarea02
 
-Este proyecto está basado en el aprendizaje de comandos del Shell de Linux, utilización de opciones y parámetros y la manera en la que estos se pueden conectar para formar operaciones "anidadas" y así utilizarlos en scripts para resolver problemas._
-En este caso el problema es capturar la informacion de la api https://api.warframe.market/v1/items, transformarla a formato json y eliminar alguna de sus keys para generar un archivo json con las keys restantes.
+Este proyecto está basado en el aprendizaje de comandos del Shell de Linux, utilización de opciones y parámetros y la manera en la que estos se pueden conectar para formar operaciones "anidadas" y así utilizarlos en scripts para resolver problemas.
+
+En este caso el problema consta de capturar la informacion de la api https://api.warframe.market/v1/items, transformarla a formato json y eliminar alguna de sus keys para generar un archivo json con las keys restantes.
 
 
 
