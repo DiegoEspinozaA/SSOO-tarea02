@@ -1,6 +1,6 @@
 # TSSOO-tarea02
 
-_Acá va un párrafo que describa lo que es el proyecto_
+_Este proyecto está basado en el aprendizaje de comandos del Shell de Linux, utilización de opciones y parámetros y la manera en la que estos se pueden conectar para formar operaciones "anidadas" y así utilizarlos en scripts para resolver problemas._
 
 ## Comenzando 🚀
 
@@ -9,11 +9,9 @@ _Estas instrucciones te permitirán obtener una copia del proyecto en funcionami
 
 ### Pre-requisitos 📋
 
-_Que cosas necesitas para instalar el software y como instalarlas_
+_*Sistema operativo basado en Linux, por ejemplo, Ubuntu._
+_*Máquina virtual con un sistema basado en Linux._
 
-```
-Da un ejemplo
-```
 
 ### Instalación 🔧
 
