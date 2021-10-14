@@ -29,7 +29,7 @@ Una vez que se cuente con los paquetes necesarios se procede a ejecutar el coman
 
 2. **jq -S**: Generar los campos de cada objeto con las claves de manera ordenada.
 
-3. **.payload.items[] |= del(.url_name, .thumb)' > items.json**: Acceder en forma de lista a las claves del archivo ya parseado anteriormente con **jq** para eliminar las claves **url_name** y **thum**. Finalmente se redirecciona la salida a un archivo con el nombre **items.json**. 
+3. **.payload.items[] |= del(.url_name, .thumb)' > items.json**: Acceder en forma de lista a las claves del archivo ya parseado anteriormente con **jq** para eliminar las claves **url_name** y **thum**. Se finaliza redireccionado la salida a un archivo con el nombre **items.json**. 
 
 
 ### Ejecución 
