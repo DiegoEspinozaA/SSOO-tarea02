@@ -35,8 +35,7 @@ Una vez que se cuente con los paquetes necesarios se procede a ejecutar el coman
 
 ### Ejecución 
 
-Utilizando la consola situarse dentro de **src/** y ejecutar la instrucción **./script.sh**.
-o simplemente dar doble click sobre el archivo **script.sh**.
+Utilizando la consola situarse dentro de **src/** y ejecutar la instrucción **./script.sh** o simplemente dar doble click sobre el archivo **script.sh**.
 
 
 
